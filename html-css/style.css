@@ -3,7 +3,7 @@ body {
     background-color: #f0f0f0;
     margin: 0;
     padding: 20px;
-    color: #d036ac;
+    color: #8136d0;
     line-height: 1.6;
 }
 
@@ -36,7 +36,7 @@ h2 {
 }
 
 .item {
-    background-color: #bb3a96;
+    background-color: #84cd15;
     color: white;
     display: flex;
     justify-content: center;
