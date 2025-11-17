@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+  <!-- グリッドレイアウトセクション -->
+    <section class="section-container grid-section">
+        <h2>4x4 グリッドレイアウト</h2>
+        <div class="grid-container grid-4x4">
+            <div class="item">01</div>
+            <div class="item">02</div>
+            <div class="item">03</div>
+            <div class="item">04</div>
+            <div class="item">05</div>
+            <div class="item">06</div>
+            <div class="item">07</div>
+            <div class="item">08</div>
+            <div class="item">09</div>
+            <div class="item">10</div>
+            <div class="item">11</div>
+            <div class="item">12</div>
+            <div class="item">13</div>
+            <div class="item">14</div>
+            <div class="item">15</div>
+            <div class="item">16</div>
+        </div>
+    </section>
+
+    <section class="section-container grid-section">
+        <h2>2x2 グリッドレイアウト</h2>
+        <div class="grid-container grid-2x2">
+            <div class="item">01</div>
+            <div class="item">02</div>
+            <div class="item">03</div>
+            <div class="item">04</div>
+        </div>
+    </section>
+
+    <section class="section-container grid-section">
+        <h2>6x1 グリッドレイアウト</h2>
+        <div class="grid-container grid-6x1">
+            <div class="item">01</div>
+            <div class="item">02</div>
+            <div class="item">03</div>
+            <div class="item">04</div>
+            <div class="item">05</div>
+            <div class="item">06</div>
+        </div>
+    </section>
+
+    <!-- ログインフォームセクション -->
+    <section class="section-container login-section">
+        <div class="login-container">
+            <h1>Sign in to your account</h1>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">Your email</label>
+                    <input type="email" id="email" name="email" placeholder="name@company.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="sign-in-button">Sign in</button>
+            </form>
+            <p class="signup-link">Don't have an account yet? <a href="#">Sign up</a></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
